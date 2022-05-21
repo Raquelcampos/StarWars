@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+header{
+   width: 100%;
+   height: 500px;
+    background-image: url("imagens/star\ wars.png");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+.title{
+    display: flex;
+    padding-top: 13%;
+    width: 100%;
+    height: 7px;
+    justify-content: space-around;
+  
+}
+.title-star{
+    width: 250px;
+    height: 80px;
+    background-image: url("imagens/star.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10%;
+}
+
+.title-wars{
+    background-image: url("imagens/wars.png");
+    width: 250px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10%;
+}
+
+.ren{
+    width: 40em;
+    height: 650px;
+    margin-top: -13%;
+    margin-left: 14%;
+}
+.crie{
+    width: 100px;
+    height: 95px;
+   position: absolute;
+   top:70%;
+   right: 20%;
+}
+
+@media(max-width:1139px){
+    .ren{
+       
+        margin-top: -17%;
+        margin-left: 10%;
+    } 
+}
+@media(max-width:1076px){
+    .ren{
+       
+       
+        margin-left: 5%;
+    } 
+    .crie{
+       top:55%;
+       right: 15%;
+    }
+}
+@media(max-width:1030px){
+    .ren{
+       
+        margin-top: -19%;
+     
+    } 
+}
+@media(max-width:979px){
+    .ren{
+       
+        width: 35em;
+        height: 550px;
+        margin-top: -19%;
+        margin-left: 10%;
+     
+    } 
+.title{
+    display: flex;
+    padding-top: 17%;
+    width: 100%;
+    height: 7px;
+    
+}
+}
+@media(max-width:853px){
+    .ren{
+       
+        width: 30em;
+        height: 500px;
+        margin-top: -17%;
+        margin-left: 13%;
+     
+    } 
+    .crie{
+        width: 90px;
+        height: 90px;
+       top:65%;
+       right: 10%;
+    }
+
+}   
+@media(max-width:800px){
+    .title-star{
+        width: 150px;
+        height: 80px;
+       
+    }
+    
+    .title-wars{
+       
+        width: 150px;
+        height: 80px;
+    
+    }
+}
+@media(max-width:771px){
+    .ren{
+       
+        margin-top: -22%;
+     
+    } 
+}
+@media(max-width:710px){
+    .ren{
+        margin-left: 5%;
+    } 
+    .crie{
+       top:60%;
+       right: 15%;
+    }
+}
+@media(max-width:654px){
+    .ren{
+       
+        width: 25em;
+        height: 450px;
+      
+        margin-left: 8%;
+     
+    } 
+}
+@media(max-width:584px){
+    .ren{
+       
+        width: 20em;
+        height: 350px;
+        margin-top:-15% ;
+        margin-left: 10%;
+     
+    } 
+    .crie{
+            width: 100px;
+            height: 95px;
+           top:45%;
+           right: 10%;
+        }
+    }
+
+@media(max-width:550px){
+    .ren{
+       
+        width: 20em;
+        height: 350px;
+        margin-top:-20% ;
+        margin-left: 9%;
+     
+    } 
+}
+@media(max-width:584px){
+    .ren{
+       
+        margin-top: -22%;
+     
+    } 
+}
+@media(max-width:478px){
+    .ren{
+       
+        width: 15em;
+        height: 250px;
+        margin-top:-17% ;
+        margin-left: 15%;
+     
+    } 
+    .title-star{
+        width: 100px;
+        height: 60px;
+       
+    }
+    
+    .title-wars{
+       
+        width: 100px;
+        height: 60px;
+    
+    }
+    .crie{
+        width: 50px;
+        height: 50px;
+       top:35%;
+       right: 10%;
+    }
+}
+@media(max-width:392px){
+    .ren{
+        margin-top:-20% ;
+        margin-left: 9%;
+}
+}
+@media(max-width:354px){
+    .ren{
+        width: 12em;
+        height: 150px;
+        margin-top:-10% ;
+        margin-left: 12%;
+}
+.title-star{
+    width: 80px;
+    height: 40px;
+   
+}
+
+.title-wars{
+   
+    width: 80px;
+    height: 40px;
+
+}
+.crie{
+    width: 30px;
+    height: 30px;
+   top: 25%;
+   right: 15%;
+}
+}
+@media(max-width:300px){
+    .ren{
+        margin-top:-13% ;
+        margin-left: 9%;
+}
+.title-star{
+    width: 70px;
+    height: 40px;
+   
+}
+
+.title-wars{
+   
+    width: 70px;
+    height: 40px;
+
+}
+}
