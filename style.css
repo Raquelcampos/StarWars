@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
   }
   body {
     max-width: 1900px;
@@ -13,9 +14,6 @@
     background-image: url("imagens/star\ wars.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: aqua;
-
-
   }
   .title {
     display: flex;
@@ -24,7 +22,7 @@
     padding: 5%;
   }
   .title-star {
-    width: 200px;
+    width: 20%;
     height: 80px;
     background-image: url("imagens/star.png");
     background-repeat: no-repeat;
@@ -33,7 +31,7 @@
   }
   .title-wars {
     background-image: url("imagens/wars.png");
-    width: 200px;
+    width: 20%;
     height: 80px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -58,7 +56,7 @@
   main{
     background-image: url("imagens/robots.png");
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 50%;
     width: 100%;
     height: 200vh;
 }
@@ -68,39 +66,64 @@
 }
 .divcomece{
     background-image: url("imagens/comece.png");
-    width: 300px;
-    height: 500px;
+    width: 17%;
+    height: 400px;
+    margin: -2% 0 0 13%;
+    position: relative;
 }
 h2{
     color: white;
-    background-color: blue;
-    width: 150px;
+    font-size: 2rem;
+    padding: 18%;
+    margin-top: 10%;
+    font-weight: 10;
+}
+.p1{
+  color: white;
+  font-size: 0.8rem;
+  padding: 2.5%;
+  height: 20%;
+  margin-top: 7%;
+ 
+}
+.button1{
+ border-color: white;
+ padding: 5%;
+ background: none;
+ border-radius: 5px;
+ width: 60%;
+ margin-left: 15%;
+ margin-top: 10%;
+ color: white;
+}
+.button1:hover{
+  cursor: pointer;
 }
 .divsobre{
     display: flex;
-    background-color: blue;
-    width: 603px;
+    width: 45%;
     height: 155px;
-    margin-top: 25%;
+    margin-top: 15%;
+    text-align: right;
 }
 .sobre{
-    width:250px ;
-    height:150px ;
+  width: 40%;
+  height: 100%;
 }
 .texto2{
-    background-color: cyan;
-    width: 350px;
-    height: 150px;
+    width: 60%;
+    height: 100%;
 }
 h3{
     text-align: center;
     font-size: 1.5rem;
 }
 .linha1{
-    width: 100px;
+    width: 35%;
     height: 3px;
     background-color: black;
-margin-left: 35%;
+    margin: 2% 0 2% 37%;
+    
 }
 .linha2{
     width: 80%;
@@ -109,43 +132,240 @@ margin-left: 35%;
     margin-left: 13%;
     margin-top: 5%;
 }
+.estrutura{
+  display: flex;
+
+}
+.lordsifh{
+ 
+  width: 100%;
+  height: 100%;
+  margin-top: 20%;
+  margin-left: 17%;
+}
+nav{
+  height: 400px;
+  width: 60%;
+  position: relative;
+  top: 9em;
+  text-align: right;
+  right: 7%;
+}
+.reyimg{
+  width:100% ;
+  height: 90%;
+  margin-top: 60%;
+  object-fit: cover;
+ 
+}
+h1{
+  font-size: 2rem;
+  width: 60%;
+  margin-left: 40%;
+  
+}
+strong{
+font-weight: bolder;
+}
+
+ul{
+  list-style: none;
+  height:90% ;
+  margin-top: 5%;
+}
+li{
+  height: 15%;
+  padding: 3%;
+}
+li:hover{
+  cursor: pointer;
+  background-color: red;
+  color:white
+}
+.fundo{
+
+  width: 100%;
+  height: 10vh;
+  background-color: #2D2D2D;
+}
+@media(max-width:1000px){
+  h2{
+    font-size: 1.5rem;
+    padding: 15%;
+}
+.divcomece{
+  height: 20em;
+  width: 19%;
+} 
+  .divsobre{
+    width: 50%;
+}
+.p2{
+  font-size: 0.8rem;
+}
+h3{
+  font-size: 1rem;
+}
+h1{
+  font-size: 1.5rem;
+}
+ul{
+  font-size: 0.8rem;
+  height: 70%;
+}
+nav{
+    top: 6em;
+  height: 300px;
+}
+}
+@media(max-width:874px){
+  h1{
+    font-size: 1rem;
+  }
+  ul{
+    font-size: 0.7rem;
+    height: 60%;
+  }
+  nav{
+    width: 100%;
+  }
+  li{
+    padding: 4%;
+  }
+}
   @media(max-width:847px){
-    .title-star,  .title-wars {
-        width: 150px;
-        height: 60px;
-      }
       .crie {
         margin-top: 42%;
       }
-}
-@media(max-width:520px){
-    .title-star,.title-wars {
-        width: 100px;
-        height: 60px;
-        margin-top: 22%; 
+      nav{
+        width: 70em;
+        height:200px ;
       }
 }
-@media(max-width:430px){
+@media(max-width:794px){
+  .divcomece{
+    width: 25%;
+  } 
+ 
+@media(max-width:675px){
+  .lordsifh{
+    width: 110%;
+  }
+  nav{
+    top:3em;
+  }
+}
+@media(max-width:639px){
+  .information{
+    flex-direction: column;
+}
+.divcomece{
+  width: 30%;
+  margin: 5% 0 0 60%;
+}
+.divsobre{
+  width: 80%;
+  height: 150px;
+  margin: 5% 0 0 10%;
+ flex-direction: row-reverse;
+}
+h1{
+  font-size: 1rem;
+}
+ul{
+  font-size: 0.5rem;
+}
+}
+@media(max-width:521px){
+ul{
+  height: 80%;
+}
+}
+@media(max-width:510px){
     header {
-        height: 29vh;
+        height:12em;
     }
-    .title-star,.title-wars {
-        width: 90px;
-        height: 50px;
-      }
+    .divcomece{
+      width: 40%;
+      margin: 10% 0 0 50%;
+    }
+    .divsobre{
+     flex-direction: column-reverse;
+     margin: 5% 0 0 10%;
+     height: 300px;
+    }
+    .texto2{
+      margin-left: 10%;
+      width: 90%;
+      height: 100%;
+  }
+  .sobre{
+    margin-left: 50%;
+    width: 50%;
+  }
+  h3{
+    margin-left: 57%;
+      font-size: 1.5rem;
+    }
+  .linha1{
+    margin: 2% 0 2% 62%; 
 }
-@media(max-width:326px){
-    header {
-        height: 25vh;
-    }
-    .title-star,.title-wars {
-        width: 70px;
-        height: 30px;
-        margin-top: 25%; 
-      }
-      .crie {
-        margin-top: 39%;
-      }
+}
+nav{
+  top:1em;
+}
+}
+@media(max-width:465px){
+  h3{
+    font-size: 1rem;
+  }
+  .p2{
+    font-size:0.7rem ;
+  }
+}
+@media(max-width:450px){
+  header {
+      height:10em;
+  }
+  nav{
+    height:150px ;
+  }
+  .ren-crie{
+    top:3%;
+}
+}
+@media(max-width:379px){
+.lordsifh{
+  width: 130%;
+}
+}
+@media(max-width:367px){
+  header {
+      height:8em;
+  }
+  .divcomece{
+    width: 47%;
+    height: 17em;
+    margin: 15% 0 0 43%;
+  }
+  .p1{
+    margin-top: 1%;
+    font-size: 0.7rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+  .button1{
+    margin-top: 15%;
+  }
+ 
+}
+@media(max-width:333px){
+  nav{
+    width: 80em;
+   height: 140px;
+   right:1%;
+  }
 }
 
  
