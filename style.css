@@ -62,13 +62,13 @@
 }
 .information{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .divcomece{
     background-image: url("imagens/comece.png");
     width: 17%;
     height: 400px;
-    margin: -2% 0 0 13%;
+    margin: -2% 0 0 10%;
     position: relative;
 }
 h2{
@@ -109,26 +109,27 @@ h2{
 .sobre{
   width: 40%;
   height: 100%;
+  object-fit: cover;
 }
 .texto2{
     width: 60%;
     height: 100%;
 }
 h3{
-    text-align: center;
+    text-align: right;
     font-size: 1.5rem;
 }
 .linha1{
     width: 35%;
     height: 3px;
     background-color: black;
-    margin: 2% 0 2% 37%;
+    margin: 2% 0 2% 64%;
     
 }
 .linha2{
     width: 80%;
     height: 7px;
-    background-color: darkgray;
+    background-color: #2D2D2D;;
     margin-left: 13%;
     margin-top: 5%;
 }
@@ -185,8 +186,31 @@ li:hover{
 .fundo{
 
   width: 100%;
-  height: 10vh;
   background-color: #2D2D2D;
+}
+h4{
+  color:white;
+}
+.hierarquia{
+  width: 100%;
+  height: 70%;
+}
+.hierarquia1{
+  padding: 10%;
+}
+.p4{
+  color: white;
+  width: 50%;
+  text-align: right;
+  margin-top: -9%;
+  margin-left: 40%;
+}
+h5{
+  text-align: center;
+  padding: 8%;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
 }
 @media(max-width:1000px){
   h2{
@@ -262,12 +286,22 @@ nav{
 .divcomece{
   width: 30%;
   margin: 5% 0 0 60%;
+  
 }
 .divsobre{
   width: 80%;
   height: 150px;
   margin: 5% 0 0 10%;
  flex-direction: row-reverse;
+  text-align: left;
+}
+h3{
+  text-align: left;
+  font-size: 1.5rem;
+}
+.linha1{
+  margin: 2% 0 2% 0;
+  
 }
 h1{
   font-size: 1rem;
@@ -293,6 +327,7 @@ ul{
      flex-direction: column-reverse;
      margin: 5% 0 0 10%;
      height: 300px;
+     text-align: right;
     }
     .texto2{
       margin-left: 10%;
@@ -304,8 +339,7 @@ ul{
     width: 50%;
   }
   h3{
-    margin-left: 57%;
-      font-size: 1.5rem;
+    text-align: right;
     }
   .linha1{
     margin: 2% 0 2% 62%; 
