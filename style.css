@@ -58,7 +58,7 @@
     background-repeat: no-repeat;
     background-size: 50%;
     width: 100%;
-    height: 200vh;
+    height: 300vh;
 }
 .information{
     display: flex;
@@ -337,12 +337,84 @@ top: 0;
 .dog:hover .textdog{
   top: 0;
   }
-  .nave:hover .textnaves{
-    top: 0;
-    }
-    .doiscara:hover .textdoiscaras{
-      top: 0;
-      }
+.nave:hover .textnaves{
+  top: 0;
+}
+.doiscara:hover .textdoiscaras{
+  top: 0;
+}
+.mainfinale{
+  display: flex;
+}
+
+.capitao{
+  width:30%;
+  margin-top: -20%;
+  margin-left: 7%;
+}
+.storm{
+
+  width: 100%;
+  height: 100%;
+}
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+.download1, .escolher2, .explorar3{
+  width: 20vw;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 15%;
+}
+.buttonclick{
+  width: 50%;
+  height: 28%;
+  overflow: hidden;
+}
+.download, .escolher, .explorar{
+  border:none;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.caixa{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  opacity: 0.5;
+  position: relative;
+  top:-100%;
+  left: 100%;
+  transition: 1.5s all;
+}
+.buttonclick:hover .caixa{
+  left: 0;
+  cursor: pointer;
+}
+.number{
+  font-size: 1.5rem;
+}
+.p5{
+  font-size: 0.8rem;
+  width: 40%;
+  text-align: center;
+}
+.p52{
+  font-size: 0.8rem;
+  width: 30%;
+  text-align: center;
+}
+.linha3{
+  width: 35%;
+  height: 2px;
+  background-color: black;
+}
+
 @media(max-width:1000px){
   h2{
     font-size: 1.5rem;
@@ -377,6 +449,17 @@ nav{
   font-size: 0.6rem;
   margin-left: 30%;
 }
+.number{
+  font-size: 1.2rem;
+}
+.p5{
+width: 40%;
+font-size: 0.5rem;
+}
+.p52{
+  width: 25%;
+  font-size: 0.5rem;
+}
 }
 @media(max-width:869px){
   .novos{
@@ -401,6 +484,9 @@ nav{
   .button22{
     font-size: 0.3rem;
   
+  }
+  .download, .escolher, .explorar{
+    font-size: 0.5rem;
   }
 }
 @media(max-width:874px){
@@ -434,6 +520,14 @@ nav{
   .divcomece{
     width: 25%;
   } 
+  .p5{
+    width: 55%;
+    font-size: 0.5rem;
+    }
+    .p52{
+      width: 35%;
+      font-size: 0.5rem;
+    }
 }
  
 @media(max-width:675px){
@@ -492,6 +586,30 @@ h1{
 ul{
   font-size: 0.5rem;
 }
+}
+@media(max-width:634px){
+  .buttons{
+    flex-direction: column;
+  }
+  .download1, .escolher2, .explorar3{
+    width: 30vw;
+    height: 100px;
+  }
+  .storm{
+    object-fit: cover;
+  }
+  .mainfinale{
+    justify-content: space-evenly;
+  }
+  .como{
+    text-align: right;
+    font-size: 1.5rem;
+  }
+  .capitao{
+    width:40%;
+    margin-top: -20%;
+    margin-left: 0%;
+  }
 }
 @media(max-width:587px){
   .p32{
@@ -572,10 +690,6 @@ h4{
 .verde{
   width: 100%;
 }
-.como{
-  text-align: right;
-  font-size: 1.5rem;
-}
 .figuras2{
   width: 100%;
 }
@@ -608,6 +722,11 @@ h4{
   .p2{
     font-size:0.7rem ;
   }
+  .capitao{
+    width:50%;
+    margin-top: -20%;
+    margin-left: 0%;
+  }
 }
 @media(max-width:450px){
   header {
@@ -619,6 +738,14 @@ h4{
   .ren-crie{
     top:3%;
 }
+}
+@media(max-width:418px){
+  .p52{
+    width: 47%;
+  }
+  .p5{
+    width: 65%;
+  }
 }
 @media(max-width:368px){
   .textgreen{
@@ -659,6 +786,9 @@ h4{
   }
   .button1{
     margin-top: 15%;
+  }
+  .p5{
+    width: 70%;
   }
  
 }
