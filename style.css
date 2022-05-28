@@ -58,7 +58,7 @@
     background-repeat: no-repeat;
     background-size: 50%;
     width: 100%;
-    height: 300vh;
+   
 }
 .information{
     display: flex;
@@ -345,6 +345,7 @@ top: 0;
 }
 .mainfinale{
   display: flex;
+  width: 100%;
 }
 
 .capitao{
@@ -414,7 +415,69 @@ top: 0;
   height: 2px;
   background-color: black;
 }
-
+footer{
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  height: 600px;
+  border: solid gray;
+}
+.redes{
+  background-color: #FF5A56;
+  width: 55%;
+  color:white;
+  padding: 5%;
+  border: solid green;
+}
+.aplicativo{
+font-size: 2rem;
+margin-bottom: 5%;
+border: solid paleturquoise;
+}
+.apps{
+  margin: 4% 0 2% 0;
+  border: solid red;
+  width: 100%;
+}
+.googleb, .appstoreb{
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  height: 45px;
+  
+}
+.appstoreb{
+  margin-left: 2%;
+}
+.googleb:hover, .appstoreb:hover{
+  cursor: pointer;
+}
+.google, .appstore{
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+.p6{
+  width: 60%;
+  margin-top: 2%;
+  border: solid yellow;
+}
+.linha4{
+  background-color: crimson;
+  width: 320px;
+  height: 4px;
+  margin: 4% 0 5% 0;
+}
+.starwars{
+  width: 40%;
+  border: solid;
+}
+.boneco{
+  width: 500px;
+  margin-top: -16%;
+  margin-left: -25%;
+  border: solid;
+}
 @media(max-width:1000px){
   h2{
     font-size: 1.5rem;
@@ -459,6 +522,13 @@ font-size: 0.5rem;
 .p52{
   width: 25%;
   font-size: 0.5rem;
+}
+.p6{
+  width: 90%;
+  margin-top: 2%;
+}
+.boneco{
+  margin-left: -17%;
 }
 }
 @media(max-width:869px){
@@ -507,7 +577,7 @@ font-size: 0.5rem;
       font-size: 1.5rem;
   }
 }
-  @media(max-width:847px){
+@media(max-width:847px){
       .crie {
         margin-top: 42%;
       }
@@ -610,10 +680,35 @@ ul{
     margin-top: -20%;
     margin-left: 0%;
   }
+  .redes{
+    width: 100%;
+    padding: 15% 15% 45% 15% ;
+    
+    
+  }
+  .p6{
+    width: 100%;
+  }
+  .aplicativo{
+    font-size: 3rem;
+  }
+  footer{
+    flex-direction: column;
+  }
+  .boneco{
+    border:solid;
+    width: 500px;
+    margin-top: -45%;
+    margin-left: 10%;
+  }
 }
 @media(max-width:587px){
   .p32{
     padding: 3% 0 3% 0 ;
+  }
+  .boneco{
+    width: 400px;
+    margin-top: -40%;
   }
 }
 @media(max-width:521px){
@@ -738,6 +833,25 @@ h4{
   .ren-crie{
     top:3%;
 }
+.starwars{
+  margin-left: 30%;
+}
+.boneco{
+  width: 350px;
+  margin-top: -40%;
+}
+}
+@media(max-width:443px){
+.googleb, .appstoreb{
+  width: 120px;
+  height: 40px;
+}
+.linha4{
+  width: 250px;
+}
+.p6{
+  width: 110%;
+}
 }
 @media(max-width:418px){
   .p52{
@@ -745,6 +859,11 @@ h4{
   }
   .p5{
     width: 65%;
+  }
+  .boneco{
+    width: 300px;
+    margin-top: -40%;
+    margin-left: 0;
   }
 }
 @media(max-width:368px){
@@ -790,7 +909,16 @@ h4{
   .p5{
     width: 70%;
   }
- 
+  .googleb, .appstoreb{
+    width: 110px;
+    height: 35px;
+  }
+  .linha4{
+    width: 230px;
+  }
+  .aplicativo{
+    font-size: 2.5rem;
+  }
 }
 @media(max-width:333px){
   nav{
@@ -803,6 +931,13 @@ h4{
   }
   ul{
     margin-top: 2%;
+  }
+  .googleb, .appstoreb{
+    width: 100px;
+    height: 35px;
+  }
+  .linha4{
+    width: 210px;
   }
 }
 
